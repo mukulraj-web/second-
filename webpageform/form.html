@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body> 
+    <h1> Geeks For Geeks servey form</h1>
+    <form action="/action_page.php" target="_blank"> <br>
+       <label for="name"><b>name </b></label><br>
+       <input type="text" id="name" placeholder="enter your name"> <br>
+       <label for="email"><b>email </b></label><br>
+       <input type="email" id="email" placeholder="enter your email"><br>
+       <label for="age"><b>age</b></label><br>
+       <input type="age" id="age" placeholder="enter your age"> <br>
+       <label for="role"><b>Which option best describes you</b> </label><br>
+       <select name="role" id="role"> 
+        <option value="student">student</option>
+        <option value="intern">intern</option>
+        <option value="professional">professional</option>
+        <option value="others">others</option>
+       </select> <br> <br>
+       <label for="recomendation"> <B>would you like to recommend gigtech to your friends</B></label><br>
+    <div id="radio"><input type="radio" id="recommendation" value="yes" name="recommend"> <label for="recommendation">yes</label>
+    <input type="radio" id="recommendation1"name="recommend" value="no"> <label for="recommendation1">no</label>
+    <input type="radio" id="recommendation2" name="recommend" value="maybe"> <label for="recommendation2">maybe</label></div>
+    <label for="language"><b>language and frame you know <small>(check all that apply) </b></small></label>
+    <br> <div id="lang"> 
+     <label  class="custom-checkbox"  for="language1"><input type="checkbox" id="language1">C</label>
+     <label class="custom-checkbox" for="language2"><input type="checkbox" id="language2">C++</label>
+     <label class="custom-checkbox" for="language3"><input type="checkbox" id="language3">python</label>
+     <label class="custom-checkbox" for="language4"><input type="checkbox" id="language4">django</label>
+     <label class="custom-checkbox" for="language5"><input type="checkbox" id="language5">javascript</label>
+     <label class="custom-checkbox" for="language6"><input type="checkbox" id="language6">react</label>
+     <label class="custom-checkbox" for="language7"><input type="checkbox" id="language7">angular</label>
+     <label class="custom-checkbox" for="language8"><input type="checkbox" id="language2">spring</label></div>
+     <div id="comment"> 
+        <b>any comment or suggestions </b>
+     </div>
+     <textarea id="textarea" rows="3" cols="100%" placeholder="your valueable suggestions"></textarea> <br>
+     <button><b>submit</b></button>
+</form> 
+</body>
+</html>
